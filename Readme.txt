@@ -1,6 +1,37 @@
 This file contains all classes explanations,functions,methods in order to be better orientation to the user.
 
 
+////////////////////////////////////////////////////////////////////////
+			-- introduction --
+///////////////////////////////////////////////////////////////////////
+
+textEditorApi enables various actions on text.
+
+Adding text,
+Removing text,
+Bold,underline,italic actions,
+Redo action,Undo last action
+
+following api methods will be used: 
+
+Add(String stringToAdd, int position)
+
+Remove (int fromPos, int toPos)
+
+Bold (int fromPos, int toPos)
+
+Italic (int fromPos, int toPos)
+
+Underline (int fromPos, int toPos)
+
+Undo()
+
+Redo()
+
+Print() – this prints current text into the console
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
 
 
 ////////////////////////////////////////////////////////////////////////
